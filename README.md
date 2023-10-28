@@ -88,7 +88,7 @@ As the Minimax algorithm runs, it will keep track of the alpha and beta values f
 The Minimax algorithm seems to be a sufficient algorithm for games like tic-tac-toe. It provides intelligence to the games, which makes it more challenging and fun for players. I can improve the Minimax algorithm by implementing Alpha-Beta Pruning (which I did in my code since it got an error for not being efficient enough (https://youtu.be/l-hh51ncgDI?si=yAZSBImXYObtm-rg). This will reduce the number of nodes that the Minimax algorithm needs to search by choosing which branches need to and do not need to be searched. This then improves runtime for larger trees. I tried doing research and I could not find many ways to improve the Minimax algorithm further.
 
 ## How To Run the Code
-You may run the code by uncommenting game_play() at the very bottom of the file and run it in your own IDE. I personally use VSCode
+You may run the code by uncommenting game_play() at the very bottom of the file and run it in your own IDE. I personally use VSCode. Press the run button and either the AI ('O') will start or you will start ('X'). When playing, input the row and column number that you want to place your 'X' at. When the game is over, you will get a message indicating if you won or lost. You may restart by pressing the run/play button again.
 
 ## Sources:
 
